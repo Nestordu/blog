@@ -1,0 +1,495 @@
+{
+  "global": {
+    "store": "google",
+    "language": "en",
+    "orientation": "landscape",
+    "sdkVersion": "",
+    "gameEngine": "unity",
+    "googlePlayLicenceKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlT77Un4GaVXkpUWHFaVZxfym97KdNA2j2CHEXT+Cp/zC6yvtck3LUY6qHbRB9d6gQmF0lPld6m1yWlY146PHux3p7HV8e8U/LTZaLqHaRZcBtw8BO32FY9mYxHGlip3c8MUdSallBiT0/uRxQgySMeD4kP6YsMWkFzv2xd6MksB93C8laPqzo1Q+rWMZPxqZCxKK+1O2kgY12cuqmrtC5cw9+6yg6X8UFn1XNFEIhX9XO/Ry8Lgs2QoO6EEugjsvqd0gePu4CCUyaNPzE0yQLtshUbnLIgRrA6VDIx/92hJiYs0Uc+njEdyWsOssDCa559bZeDzk4F8utuuZntHJXwIDAQAB",
+    "audienceModeBuildOnly": "mixed",
+    "applyAdmobFiltering": "PG",
+    "brands": [
+      "CP"
+    ],
+    "appBuildConfig": {
+      "admob": {
+        "application": "ca-app-pub-6413386943382946~5703538734"
+      }
+    }
+  },
+  "configurationFetcher": {
+    "included": true,
+    "serverDomain": "gateway.ttpsdk.info"
+  },
+  "locationMgr": {
+    "included": true,
+    "timeIntervalSequence": [
+      60,
+      45
+    ],
+    "sources": {
+      "chartboost": {
+        "firstDisplayAtSession": 1
+      },
+      "interstitial": {
+        "firstDisplayAtSession": 1
+      },
+      "promotionPage": {
+        "firstDisplayAtSession": 1
+      }
+    },
+    "locations": {
+      "sceneTransitions": {
+        "firstDisplayAtSession": 1,
+        "showEveryXDisplays": 1,
+        "useShowEveryXDisplaysOrTimeBetweenPopups": false,
+        "source": [
+          "interstitial"
+        ]
+      },
+      "moreApps": {
+        "source": [
+          "promotionPage"
+        ],
+        "forceShow": true
+      }
+    },
+    "sessionTime": 0,
+    "gameTime": 0,
+    "level": 0,
+    "javascriptUrl": "http://promo-images.ttpsdk.info/locationMgr/v004/skin.zip",
+    "rewardedVideos": {
+      "resetTimeBetweenPopups": false,
+      "resetPopupDisplayCounter": false
+    }
+  },
+  "interstitial": {
+    "included": true,
+    "interstitialsProviders": [
+      {
+        "provider": "admob",
+        "adKey": "ca-app-pub-6413386943382946/8272371064",
+        "attributes": {
+          "vungle": [
+            "LOWINTER-3023361"
+          ]
+        }
+      }
+    ],
+    "ecpm": 0
+  },
+  "appShelf": {
+    "included": true,
+    "openOnNewActivity": true,
+    "locations": [],
+    "serverDomain": "gateway.ttpsdk.info"
+  },
+  "promotionPage": {
+    "included": true,
+    "openOnNewActivity": true,
+    "serverDomain": "gateway.ttpsdk.info",
+    "modeInfo": {
+      "expiry": "2999-12-31T23:59:59Z",
+      "modes": {
+        "manual": 100,
+        "controlled": 0,
+        "test": 0
+      }
+    }
+  },
+  "chartboost": {
+    "included": true,
+    "chartboostId": "5bb725b2f6104d0b96b718eb",
+    "chartboostSignature": "0e4208bece47be6f6856bc88fb995d10b59eea8a",
+    "chartboostEnableInterstitial": false
+  },
+  "banners": {
+    "included": false,
+    "scaleScene": false,
+    "showBannerAds": false,
+    "showAdsAtTop": false,
+    "adDisplayTime": 30,
+    "useSmartBanners": false,
+    "showBlockingAdsView": true,
+    "houseAdsServerDomain": "gateway.ttpsdk.info",
+    "bannersProviders": [],
+    "ecpm": 0
+  },
+  "rewardedAds": {
+    "included": true,
+    "rvProviders": [
+      {
+        "attributes": {
+          "vungle": [
+            "RV13_NEWWATERFALL-5426551"
+          ]
+        },
+        "provider": "admob-rv",
+        "admobKey": "ca-app-pub-6413386943382946/7889227684"
+      }
+    ],
+    "ecpm": 0,
+    "flurryVideoSpace": "",
+    "placementid": "",
+    "fyberClientSecurityToken": "",
+    "unityAdsZoneId": "",
+    "admobKey": "ca-app-pub-6413386943382946/7889227684",
+    "vunglePlacementId": "",
+    "applovinKey": "",
+    "adColonyApplicationId": "",
+    "moPubAdUnitId": "",
+    "vungleApplicationId": "",
+    "instanceId": "",
+    "fyberAppId": "",
+    "adKey": "",
+    "adColonyZoneId": "",
+    "unityAdsGameId": ""
+  },
+  "splash": {
+    "included": false,
+    "images": [
+      {
+        "imagepath": "Default.png",
+        "mintime": 2
+      }
+    ]
+  },
+  "appsFlyer": {
+    "included": true,
+    "sendIDFA": true,
+    "appsFlyerKey": "8MAzUC3B2BHYVi2uYVHaSd",
+    "gcmProjectNumber": "",
+    "disableUnderAgeSAN": true,
+    "disableUnderAgeEvents": true
+  },
+  "singular": {
+    "included": false,
+    "key": "",
+    "secret": ""
+  },
+  "safeDK": {
+    "included": true,
+    "appId": "ef056363727ad64ae7bf3066769be6cc",
+    "apiKey": "30c777804b614fb4a09af2443fe10fce"
+  },
+  "analytics": {
+    "included": true,
+    "gameAnalyticsServiceType": [
+      "flurry",
+      "deltaDna"
+    ],
+    "psdkAnalyticsServiceType": [
+      "flurry"
+    ],
+    "flurry": {
+      "enableFlurryCrashReports": true,
+      "key": "HV6PHH8KC4S8F2FQ6TKH"
+    },
+    "deltaDna": {
+      "activateAllUsers": false,
+      "activateUsers": 100,
+      "key": "05550496306098950298458078715236",
+      "collectUrl": "https://collect13326styls.deltadna.net/collect/api",
+      "engageUrl": "https://engage13326styls.deltadna.net",
+      "ltvOnly": false
+    },
+    "ttAnalytics": {
+      "interval": 60,
+      "sendAndroidAdvertisersId": true
+    }
+  },
+  "referrals": {},
+  "socialGame": {
+    "included": false,
+    "leaderboardsIds": {},
+    "achievementsIds": {}
+  },
+  "gsdkSocialNetworks": {
+    "included": true
+  },
+  "rateUs": {
+    "included": true,
+    "coolDown": 0,
+    "satisfactionPointsThreshold": 0
+  },
+  "share": {
+    "included": false
+  },
+  "billing": {
+    "included": true,
+    "iaps": [
+      {
+        "name": "Getting There Cash Pack",
+        "id": "com.babyeducationtoys.fashionstyle.cashsmall",
+        "iapId": "com.cocoplay.fashion.style_cashsmall",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "OMG So Much Energy Pack",
+        "id": "com.babyeducationtoys.fashionstyle.energyl",
+        "iapId": "com.cocoplay.fashion.style_energyl",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Taste of Energy Pack",
+        "id": "com.babyeducationtoys.fashionstyle.energys",
+        "iapId": "com.cocoplay.fashion.style_energys",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Ultimate Stylist Pack",
+        "id": "com.babyeducationtoys.fashionstyle.mixpack",
+        "iapId": "com.cocoplay.fashion.style_mixpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Ultimate Super Stylist Pack",
+        "id": "com.babyeducationtoys.fashionstyle.mixcashenergypack",
+        "iapId": "com.cocoplay.fashion.style_mixcashenergypack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Wowza Cash Pack",
+        "id": "com.babyeducationtoys.fashionstyle.cashlargepack",
+        "iapId": "com.cocoplay.fashion.style_cashlargepack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "You've Arrived Cash Pack",
+        "id": "com.babyeducationtoys.fashionstyle.cashm",
+        "iapId": "com.cocoplay.fashion.style_cashm",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Boost Of Energy Pack",
+        "id": "com.babyeducationtoys.fashionstyle.energym",
+        "iapId": "com.cocoplay.fashion.style_energym",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Lookin' Good Voucher Pack",
+        "id": "fashionvoucher",
+        "iapId": "com.cocoplay.fashion.style_fashionvoucher",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Fashionista Voucher Pack",
+        "id": "stylishvoucherpack",
+        "iapId": "com.cocoplay.fashion.style_stylishvoucherpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Star Stylist Voucher Pack",
+        "id": "superstylishvoucherpack",
+        "iapId": "com.cocoplay.fashion.style_superstylishvoucherpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "No Muss No Fuss... & No Ads!",
+        "id": "stylishplay",
+        "iapId": "com.cocoplay.fashion.style_stylishplay",
+        "type": "non-consumable",
+        "noAds": true
+      },
+      {
+        "name": "Drop of Energy Pack",
+        "id": "energypacks",
+        "iapId": "com.cocoplay.fashion.style_energypacks",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Bag of Energy Pack",
+        "id": "energypackm",
+        "iapId": "com.cocoplay.fashion.style_energypackm",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Wowza Energy Pack",
+        "id": "energypackl",
+        "iapId": "com.cocoplay.fashion.style_energypackl",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Purse of Energy Pack",
+        "id": "energypackmd",
+        "iapId": "com.cocoplay.fashion.style_energypackmd",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Yaaas Queen Pack",
+        "id": "mixcashenergypackd",
+        "iapId": "com.cocoplay.fashion.style_mixcashenergypackd",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Almost Famous Pack",
+        "id": "mixcashenergypackc",
+        "iapId": "com.cocoplay.fashion.style_mixcashenergypackc",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "All Eyes On Me Pack",
+        "id": "mixpackd",
+        "iapId": "com.cocoplay.fashion.style_mixpackd",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Diva Minigame Pack",
+        "id": "4minigameentries",
+        "iapId": "com.cocoplay.fashion.style_4minigameentries",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Fire Minigame Pack",
+        "id": "10minigameentries",
+        "iapId": "com.cocoplay.fashion.style_10minigameentries",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Extra Minigame Pack",
+        "id": "30minigameentries",
+        "iapId": "com.cocoplay.fashion.style_30minigameentries",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Small Pack",
+        "id": "smallpack",
+        "iapId": "com.cocoplay.fashion.style.smallpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Medium Pack",
+        "id": "mediumpack",
+        "iapId": "com.cocoplay.fashion.style.mediumpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Large Pack",
+        "id": "largepack",
+        "iapId": "com.cocoplay.fashion.style.largepack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Jumbo Pack",
+        "id": "jumbopack",
+        "iapId": "com.cocoplay.fashion.style.jumbopack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Huge Pack",
+        "id": "hugepack",
+        "iapId": "com.cocoplay.fashion.style.hugepack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Colossal Pack",
+        "id": "colossalpack",
+        "iapId": "com.cocoplay.fashion.style.colossalpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Gigantic Pack",
+        "id": "giganticpack",
+        "iapId": "com.cocoplay.fashion.style_giganticpack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Remove ads",
+        "id": "removeads",
+        "iapId": "com.cocoplay.fashion.style.removeads",
+        "type": "non-consumable",
+        "noAds": true
+      },
+      {
+        "name": "Christmas Pack",
+        "id": "christmaspack",
+        "iapId": "com.cocoplay.fashion.style.christmaspack",
+        "type": "consumable",
+        "noAds": false
+      },
+      {
+        "name": "Energizer Pack",
+        "id": "energizerpack",
+        "iapId": "com.cocoplay.fashion.style.energizerpack",
+        "type": "consumable",
+        "noAds": false
+      }
+    ]
+  },
+  "externalConfiguration": {
+    "rateMePopupEnabled": true,
+    "buyMePopupEnabled": true
+  },
+  "crashMonitoringTool": {
+    "included": true,
+    "hockeyAppKey": "2c1be231b7d94c4f97aa0d06bd470104"
+  },
+  "packages": {
+    "admob": true,
+    "adcolony": true,
+    "applovin": true,
+    "deltadna": true,
+    "facebook": true,
+    "flurry": true,
+    "inmobi": true,
+    "millennial": true,
+    "startapp": true,
+    "ttanalytics": true,
+    "unityads": true,
+    "vungle": true,
+    "mopub": true,
+    "ironsource": true
+  },
+  "purchaseValidation": {
+    "responseInCaseServerFailure": false,
+    "active": true,
+    "timeoutInterval": 5,
+    "account": "Crazy Labs"
+  },
+  "experiment": {},
+  "userData": {},
+  "remoteAssets": {
+    "mode": "none"
+  },
+  "nativeCampaign": {
+    "included": true,
+    "enable": false
+  },
+  "consent": {
+    "consentFormVersion": "7.1",
+    "consentFormURL": "https://promo-images.ttpsdk.info/privacyForms/consent-form/coco/7.1/skin.zip",
+    "privacySettingsURL": "https://promo-images.ttpsdk.info/privacyForms/privacy-settings/coco/7.1/skin.zip",
+    "usePSDKGDPRPopups": true
+  },
+  "crossDevicePersistency": {
+    "included": false
+  }
+}
